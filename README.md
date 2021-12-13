@@ -3,4 +3,7 @@ This is CNN model built using PyTorch which aims at classifying images between f
 
 # Model
 * Multiclass classification model
-* Multiclass classification model
+* Framework: PyTorch version 1.10.0
+* Architecture: Convolutional Neural Network 2D
+
+![66](https://user-images.githubusercontent.com/76942680/145831834-fc4b6c47-c72a-4e8b-9c9f-4cb671ed694d.jpg)
