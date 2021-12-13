@@ -20,4 +20,4 @@ This is CNN model built using PyTorch which aims at classifying images between f
 Use the code in "model_train.ipynb" file and load it into google colab. Then run the model by adjusting the number of epochs to train for required accuracy.
 
 # How to use:
-Follow the code in 'predictor.ipynb' file to load the model and use it for prediction.
+Follow the code in 'predictor.py' file to load the model and use it for prediction.
