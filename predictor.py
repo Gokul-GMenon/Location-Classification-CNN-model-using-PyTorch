@@ -4,7 +4,9 @@ import torch
 from torchvision.transforms import transforms
 import PIL.Image as Image
 
-model = torch.load('F:\PythonLearning\ML\Pytorch projects\Projects\CNN proj 1\Intel image classification\MODELS\MODEL\Model_first_save', map_location=torch.device('cpu'))
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+model = torch.load('MODEL\Model', map_location=torch.device(device))
 
 transformer = transforms.Compose([
 
